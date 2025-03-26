@@ -293,7 +293,7 @@ def createDeckFile(delta=24):
   print(f"Number of recent mistakes: {len(deck_data)}")
 
   processDeck(deck, deck_data)
-  genanki.Package(deck).write_to_file("IMPORT_ME.apkg")
+  genanki.Package(deck).write_to_file("IMPORTME.apkg")
 
 
 # call this to create recent mistakes anki deck
