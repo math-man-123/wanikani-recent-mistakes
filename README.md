@@ -1,8 +1,7 @@
 # WaniKani recent mistakes to Anki cards
 A simple python script to fetch your recent mistakes from WaniKani and turn them into Anki cards.
 
-
-<img src="[image-url.png](https://github.com/user-attachments/assets/9b0331c6-39e0-412f-ab51-319e0b399d6e)"  height="500" />
+![example](https://github.com/user-attachments/assets/9b0331c6-39e0-412f-ab51-319e0b399d6e)
 
 # Step by step guide
 1. First make sure to install needed python librarys. Mainly genanki, requests, and pytz.
