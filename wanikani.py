@@ -7,8 +7,7 @@ from SETTINGS import API_TOKEN, TIME_ZONE
 # Requests WaniKani API endpoint with given params
 def apiRequest(endpoint, params={}, retries=3, delay=2):
     url = "https://api.wanikani.com/v2/" + endpoint
-    token = API_TOKEN
-    headers = {"Authorization": "Bearer " + token}
+    headers = {"Authorization": "Bearer " + API_TOKEN}
 
     print(f"Sending API request to endpoint {endpoint}.")
     for attempt in range(retries):
