@@ -19,12 +19,13 @@ with open("kanji.js", "r") as file:
     kanji_script = file.read().strip()
 
 
-# radical note definitions for anki
+# radical card question for anki
 radical_question = """
 Name this Radical.
 <div class="subject radical">{{subject}}</div>
 """.strip()
 
+# radical card answer for anki
 radical_answer = """
 {{FrontSide}}
 <hr />
@@ -32,6 +33,7 @@ radical_answer = """
 <div class="mnemonic">{{mnemonic}}</div>
 """.strip()
 
+# radical note anki model
 radical_model = genanki.Model(
     1827008493,  # model ID
     "WaniKani-Radical",  # model name
@@ -50,12 +52,13 @@ radical_model = genanki.Model(
 )
 
 
-# vocabulary note definitions for anki
+# vocabulary card question for anki
 vocabulary_question = """
 Name and read this Vocabulary.
 <div class="subject vocabulary">{{subject}}</div>
 """.strip()
 
+# vocabulary card answer for anki
 vocabulary_answer = """
 {{FrontSide}}<hr />
 
@@ -74,6 +77,7 @@ vocabulary_answer = """
 <div class="mnemonic">{{reading_mnemonic}}</div>
 """.strip()
 
+# vocabulary model for anki
 vocabulary_model = genanki.Model(
     1892872892,  # model ID
     "WaniKani-Vocabulary",  # model name
