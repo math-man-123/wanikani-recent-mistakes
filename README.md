@@ -1,9 +1,10 @@
 # WaniKani recent mistakes to Anki cards
 A simple python script to fetch your recent mistakes from WaniKani and turn them into Anki cards.
 
-![example](https://github.com/user-attachments/assets/9b0331c6-39e0-412f-ab51-319e0b399d6e)
 
-# Step by Step guide
+<img src="[image-url.png](https://github.com/user-attachments/assets/9b0331c6-39e0-412f-ab51-319e0b399d6e)"  height="500" />
+
+# Step by step guide
 1. First make sure to install needed python librarys. Mainly genanki, requests, and pytz.
 
   ```bash
@@ -20,4 +21,4 @@ A simple python script to fetch your recent mistakes from WaniKani and turn them
   TIME_DELTA = 24
   ``` 
 
-3. On Windows double click on RUNME.bat. On other manually run anki.py. Now simply import IMPORTME.apkg into Anki.
+3. On Windows simply double click on RUNME.bat. On other systems manually run anki.py. Now simply import IMPORTME.apkg into Anki.
