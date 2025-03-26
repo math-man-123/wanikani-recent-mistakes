@@ -20,4 +20,4 @@ A simple python script to fetch your recent mistakes from WaniKani and turn them
   TIME_DELTA = 24
   ``` 
 
-3. On Windows simply double click on RUNME.bat. On other systems manually run anki.py. Now simply import IMPORTME.apkg into Anki.
+3. Download all the files and put them in some folder. Next on Windows simply double click on RUNME.bat. On other systems manually run anki.py. Now simply import IMPORTME.apkg into Anki.
