@@ -1,4 +1,5 @@
 # This project has been replaced by [wani-kani-downloader](https://github.com/math-man-123/wanikani-downloader)!
+It is now part of my personal website, providing even more functionality directly from your web browser.
 
 # WaniKani recent mistakes to Anki cards
 A simple python script to fetch your recent mistakes from WaniKani and turn them into Anki cards.
